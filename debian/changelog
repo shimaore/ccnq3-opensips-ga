@@ -1,3 +1,12 @@
+ccnq3-opensips-ga (0.1.1) unstable; urgency=medium
+
+  [ Stephane Alnet ]
+  * build updates
+
+  [ Stephane Alnet (Packaging) ]
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Mon, 17 Feb 2014 14:30:26 +0100
+
 ccnq3-opensips-ga (0.1.0) unstable; urgency=medium
 
   * Initial release.
