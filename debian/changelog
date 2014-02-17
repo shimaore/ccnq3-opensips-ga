@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.2) unstable; urgency=medium
+
+  * ease upgrade (?)
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Mon, 17 Feb 2014 14:42:14 +0100
+
 ccnq3-opensips-ga (0.1.1) unstable; urgency=medium
 
   [ Stephane Alnet ]
