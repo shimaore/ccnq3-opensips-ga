@@ -4,4 +4,4 @@ ccnq3-opensips-ga (0.1.0) unstable; urgency=medium
   * Initial import off ccnq3 (41b1ac9633bea32dd651620f15ac621c676ee422)
   * Added applications and opensips config based of ccnq3 commit 96634d843a6309d797a5ad45fcfe4bab68ddc52f
 
- -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Mon, 17 Feb 2014 14:27:04 +0100
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Mon, 17 Feb 2014 14:27:18 +0100
