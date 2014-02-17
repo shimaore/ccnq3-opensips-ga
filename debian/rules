@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --parallel
+
+override_dh_gencontrol:
+	dh_gencontrol -- \
+		-Vopensips:Version="1.8.2-2"
+
+override_dh_installinit:
+	dh_installinit -R
