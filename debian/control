@@ -14,7 +14,7 @@ Depends: ccnq3,
   netcat,
   mediaproxy-dispatcher (= ${mediaproxy:Version}),
   libjson0 (=0.10-1.2)
-Recommends: ccnq3-munin-opensips-latest
+Recommends: ccnq3-munin-opensips-ga
 Description: OpenSIPS dependencies for CCNQ3, development branch
 
 Package: ccnq3-munin-opensips-ga
