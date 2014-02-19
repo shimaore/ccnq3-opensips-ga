@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.5) unstable; urgency=medium
+
+  * Added missing mediaproxy ini file
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Wed, 19 Feb 2014 15:05:49 +0100
+
 ccnq3-opensips-ga (0.1.4) unstable; urgency=medium
 
   * Add missing debian scripts
