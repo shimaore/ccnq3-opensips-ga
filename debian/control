@@ -22,7 +22,7 @@ Package: ccnq3-munin-opensips-ga
 Provides: ccnq3-munin-opensips
 Replaces: ccnq3-munin-opensips
 Architecture: all
-Depends: munin-node, ccnq3-opensips (= ${binary:Version}),
+Depends: munin-node, ccnq3-opensips-ga (= ${binary:Version}),
   bash
 Description: munin modules for ccnq3-opensips
   Provides the opensips_dialogs munin plugin.
