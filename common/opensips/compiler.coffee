@@ -64,7 +64,7 @@ macros_cfg = (t,params) ->
     \b end \s+ if \s+ \1 \s+ is \s+ not \s+ \2 \b
     ///g, (str,$1,$2,$3) -> if params[$1] isnt $2 then $3 else ''
   t = t.replace ///
-    \b if \s+ (\w+)\ s+ is \s+ (\w+) \b
+    \b if \s+ (\w+) \s+ is \s+ (\w+) \b
     ([\s\S]*?)
     \b end \s+ if \s+ \1 \s+ is \s+ \2 \b
     ///g, (str,$1,$2,$3) -> if params[$1] is $2 then $3 else ''
