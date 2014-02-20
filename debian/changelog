@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.7) unstable; urgency=medium
+
+  * imported applications/emergency and applications/registrant from 96634d843a6309d797a5ad45fcfe4bab68ddc52f
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 20 Feb 2014 14:23:38 +0100
+
 ccnq3-opensips-ga (0.1.6) unstable; urgency=medium
 
   * moved to proper location
