@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.9) unstable; urgency=medium
+
+  * corrected compiler typo
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 20 Feb 2014 15:16:08 +0100
+
 ccnq3-opensips-ga (0.1.8) unstable; urgency=medium
 
   * Corrected route names so that macro pre-processor doesn't crash.
