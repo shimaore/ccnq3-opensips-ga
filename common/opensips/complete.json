@@ -39,7 +39,6 @@
   "mp_always": 0,
   "debug": 0,
 
-  "radius_config": "",
   "inv_timeout": 90,
   "dialog_timeout": 28800,
 

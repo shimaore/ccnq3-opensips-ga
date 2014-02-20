@@ -72,6 +72,7 @@
   "long_fr_timer": 4,
 
   "max_contacts": 0,
+  "radius_config": "",
 
   "ok":true
 }
