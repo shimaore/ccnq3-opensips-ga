@@ -1,3 +1,12 @@
+ccnq3-opensips-ga (0.1.8) unstable; urgency=medium
+
+  * Corrected route names so that macro pre-processor doesn't crash.
+  * Remove references to (broken/uncompilable) accounting module.
+  * authenticate_register into macro
+  * radius_config as default
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 20 Feb 2014 15:01:01 +0100
+
 ccnq3-opensips-ga (0.1.7) unstable; urgency=medium
 
   * imported applications/emergency and applications/registrant from 96634d843a6309d797a5ad45fcfe4bab68ddc52f
