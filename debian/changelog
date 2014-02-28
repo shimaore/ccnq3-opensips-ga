@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.11) unstable; urgency=medium
+
+  * re-fixing host_info bug
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Fri, 28 Feb 2014 16:43:26 +0100
+
 ccnq3-opensips-ga (0.1.10) unstable; urgency=medium
 
   * Only route ENUM/loopback after making checks (and obtaining P-Charge-Info data)
