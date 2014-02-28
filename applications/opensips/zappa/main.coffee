@@ -246,9 +246,9 @@ require('ccnq3').config (config)->
     @get '/version/': ->
       if @query.k is 'table_name' and @query.c is 'table_version'
 
-        # Versions for OpenSIPS 1.8.1
+        # Versions for OpenSIPS 1.8.2
         versions =
-          location: 1009
+          location: 1007
           subscriber: 7
           dr_gateways: 5
           dr_rules: 3
