@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.12) unstable; urgency=medium
+
+  * Backport of user_port fix.
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 13 Mar 2014 21:42:02 +0100
+
 ccnq3-opensips-ga (0.1.11) unstable; urgency=medium
 
   * re-fixing host_info bug
