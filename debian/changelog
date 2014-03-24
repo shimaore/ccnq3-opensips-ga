@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.13) unstable; urgency=medium
+
+  * use_number_outbound_route
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Mon, 24 Mar 2014 18:43:38 +0100
+
 ccnq3-opensips-ga (0.1.12) unstable; urgency=medium
 
   * Backport of user_port fix.
