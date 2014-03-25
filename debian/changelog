@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.16) unstable; urgency=medium
+
+  * Correction du parsing de P-Asserted-Identity et de la creation de list_key.
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Tue, 25 Mar 2014 15:46:43 +0100
+
 ccnq3-opensips-ga (0.1.15) unstable; urgency=medium
 
   * Corrected username used for auth + use Registrant-Username as From if present.
