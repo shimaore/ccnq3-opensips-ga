@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.17) unstable; urgency=medium
+
+  * Block anonymous on incoming anonymous@anonymous.invalid (since some carriers might do this instead of using the trusted API).
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Tue, 25 Mar 2014 16:00:05 +0100
+
 ccnq3-opensips-ga (0.1.16) unstable; urgency=medium
 
   * Correction du parsing de P-Asserted-Identity et de la creation de list_key.
