@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.14) unstable; urgency=medium
+
+  * Added Regitrant-Username
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Tue, 25 Mar 2014 10:37:34 +0100
+
 ccnq3-opensips-ga (0.1.13) unstable; urgency=medium
 
   * use_number_outbound_route
