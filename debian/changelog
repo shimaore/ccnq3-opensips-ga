@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.15) unstable; urgency=medium
+
+  * Corrected username used for auth + use Registrant-Username as From if present.
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Tue, 25 Mar 2014 11:49:55 +0100
+
 ccnq3-opensips-ga (0.1.14) unstable; urgency=medium
 
   * Added Regitrant-Username
