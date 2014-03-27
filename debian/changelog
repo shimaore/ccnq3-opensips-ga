@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.19) unstable; urgency=medium
+
+  * Added exit statements where needed.
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 27 Mar 2014 15:35:42 +0100
+
 ccnq3-opensips-ga (0.1.18) unstable; urgency=medium
 
   * Actually once translated by FreeSwitch, only the username part remains.
