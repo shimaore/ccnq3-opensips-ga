@@ -2,7 +2,7 @@ ccnq3-opensips-ga (0.1.19) unstable; urgency=medium
 
   * Added exit statements where needed.
 
- -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 27 Mar 2014 15:35:42 +0100
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Wed, 30 Apr 2014 16:03:40 +0200
 
 ccnq3-opensips-ga (0.1.18) unstable; urgency=medium
 
