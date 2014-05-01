@@ -1,3 +1,10 @@
+ccnq3-opensips-ga (0.1.20) unstable; urgency=medium
+
+  * Only one registrant_host per number, but numbers may specifiy different registrant ports on the same host.
+  * Add `forbid_refer` option.
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Thu, 01 May 2014 19:13:46 +0200
+
 ccnq3-opensips-ga (0.1.19) unstable; urgency=medium
 
   * Added exit statements where needed.
