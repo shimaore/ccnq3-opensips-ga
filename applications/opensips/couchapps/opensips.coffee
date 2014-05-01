@@ -113,13 +113,15 @@ ddoc.views.registrant_by_host =
         expiry: doc.registrant_expiry ? 86400
         # forced_socket: null
 
-      hosts = doc.registrant_host
-      if typeof hosts is 'string'
-        hosts = [hosts]
+      host = doc.registrant_host
 
-      for host in hosts
-        value.binding_URI = "sip:00#{doc.number}@#{host}:5070"
-        emit [host,1], value
+      if host.match /:/
+        host_port = host
+      else
+        host_port = "#{host}:5070"
+      value.binding_URI = "sip:00#{doc.number}@#{host_port}"
+      value.forced_socket = "udp:#{host_port}"
+      emit [host,1], value
 
     if doc.type? and doc.type is 'host' and doc.applications.indexOf('applications/registrant') >= 0
       # Make sure these records show up at the top
