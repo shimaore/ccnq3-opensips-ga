@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.22) unstable; urgency=medium
+
+  * Provide a proper host key in emit!
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Tue, 13 May 2014 15:34:12 +0200
+
 ccnq3-opensips-ga (0.1.21) unstable; urgency=medium
 
   * `force_send_socket` doesn't work properly.
