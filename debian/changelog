@@ -1,3 +1,9 @@
+ccnq3-opensips-ga (0.1.21) unstable; urgency=medium
+
+  * `force_send_socket` doesn't work properly.
+
+ -- Stephane Alnet (Packaging) <stephane@shimaore.net>  Tue, 13 May 2014 15:13:21 +0200
+
 ccnq3-opensips-ga (0.1.20) unstable; urgency=medium
 
   * Only one registrant_host per number, but numbers may specifiy different registrant ports on the same host.
