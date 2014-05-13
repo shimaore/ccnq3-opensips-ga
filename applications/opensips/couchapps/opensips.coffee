@@ -114,6 +114,8 @@ ddoc.views.registrant_by_host =
         # forced_socket: null
 
       host = doc.registrant_host
+      if typeof host isnt 'string'
+        host = host[0]
 
       if host.match /:/
         host_port = host
@@ -121,7 +123,7 @@ ddoc.views.registrant_by_host =
       else
         host_port = "#{host}:5070"
       value.binding_URI = "sip:00#{doc.number}@#{host_port}"
-      value.forced_socket = "udp:#{host_port}"
+      value.forced_socket = "udp:#{doc.registrant_socket}"
       emit [host,1], value
 
     if doc.type? and doc.type is 'host' and doc.applications.indexOf('applications/registrant') >= 0
