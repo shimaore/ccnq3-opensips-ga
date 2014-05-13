@@ -117,6 +117,7 @@ ddoc.views.registrant_by_host =
 
       if host.match /:/
         host_port = host
+        host = host.split(/:/)[0]
       else
         host_port = "#{host}:5070"
       value.binding_URI = "sip:00#{doc.number}@#{host_port}"
