@@ -23,6 +23,8 @@ module.exports = ddoc
 ddoc.views.auth =
   map: p_fun (doc) ->
 
+    return if doc.disabled
+
     if doc.type? and doc.type is 'number' and doc.registrant_password? and doc.registrant_realm?
       emit null, """
         modparam("uac_auth","credential","00#{doc.number}:#{doc.registrant_realm}:#{doc.registrant_password}")\n
