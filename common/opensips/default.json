@@ -76,5 +76,7 @@
   "max_contacts": 0,
   "radius_config": "",
 
+  "rate_limit_reply_code": "503"
+
   "ok":true
 }
