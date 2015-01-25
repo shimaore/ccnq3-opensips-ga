@@ -2,8 +2,6 @@
 
 pico = require 'pico'
 ccnq3 = require 'ccnq3'
-{api} = require './api'
-
 
 # Agent main process
 ccnq3.config (config) ->
@@ -21,13 +19,6 @@ ccnq3.config (config) ->
 
     # Build the configuration file.
     require("#{base_path}/compiler.coffee") params
-
-    # Process any MI commands
-    if p.sip_commands?.registrant?
-      r = api[p.sip_commands.registrant]
-      if r?
-        ccnq3.log r.description
-        r.do()
 
   # At startup, use the current document.
   handler config
