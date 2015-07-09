@@ -7,6 +7,11 @@ Released under the AGPL3 license
 util = require 'util'
 qs = require 'querystring'
 request = require 'request'
+LRU = require 'lru-cache'
+
+cache = LRU
+  max: 16384
+  maxAge: 240 * 1000
 
 make_id = (t,n) -> [t,n].join ':'
 
@@ -76,10 +81,17 @@ require('ccnq3').config (config)->
       return doc
 
     _request = (that,loc) ->
-      r = request loc, (e,r,b) ->
-        if e?
-          util.log loc + 'failed with error ' + util.inspect e
-      r.pipe(that.response)
+      prev_value = cache.get loc
+      if prev_value?
+        that.send prev_value
+      else
+        r = request loc, (e,r,b) ->
+          if e?
+            util.log loc + 'failed with error ' + util.inspect e
+            cache.set loc, null
+          else
+            cache.set loc, b
+        r.pipe(that.response)
 
     _pipe = (that,base,t,id) ->
       loc = "#{base}/_design/opensips/_show/format/#{qs.escape id}?t=#{t}&c=#{qs.escape that.query.c}"
