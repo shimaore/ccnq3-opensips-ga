@@ -46,3 +46,5 @@ user_agent_header="User-Agent: ccnq3 ${model} proxy"
 if sip_domain_name
 alias="${sip_domain_name}"
 end if sip_domain_name
+
+disable_tcp=yes
