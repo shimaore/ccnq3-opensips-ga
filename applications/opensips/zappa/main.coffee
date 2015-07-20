@@ -26,6 +26,7 @@ require('ccnq3').config (config)->
   zappa config.opensips_proxy.port, config.opensips_proxy.hostname, {config}, ->
 
     @use 'bodyParser'
+    @use 'logger'
 
     column_types =
       location:

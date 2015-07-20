@@ -8,7 +8,7 @@
     "file": "/etc/ccnq3/host.json"
   },
   "scripts": {
-    "start": "daemon -n ccnq3_opensips -o daemon.debug -D \"`pwd`/agents\" -r -- ./opensips.coffee; daemon -n ccnq3_opensips_http_db -o daemon.debug -D \"`pwd`/zappa\" -r -- ./main.coffee"
+    "start": "daemon -n ccnq3_opensips -o daemon.debug -D \"`pwd`/agents\" -r -- ./opensips.coffee; daemon -n ccnq3_opensips_http_db -o daemon.debug -D \"`pwd`/zappa\" -r -- ./main.coffee; sleep 10"
   , "stop":  "daemon -n ccnq3_opensips -o daemon.debug --stop; daemon -n ccnq3_opensips_http_db -o daemon.debug --stop"
   , "couchapps": "cd couchapps && ./install.coffee"
   , "compact": "cd couchapps && ./compact.coffee"
